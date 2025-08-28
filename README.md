@@ -38,17 +38,3 @@ Then open the URL shown in the terminal (usually `http://localhost:8501`).
 - URL loading uses `requests`. Ensure the URL is publicly accessible.
 - If you're deploying on Streamlit Cloud, keep `opencv-python-headless` in `requirements.txt`.
 
-## Submit as Git URL
-
-Create a new GitHub repository and push:
-
-```bash
-git init
-git add .
-git commit -m "Initial commit: AI rapid prototype (Streamlit)"
-git branch -M main
-git remote add origin https://github.com/<your-username>/ai-rapid-proto-streamlit.git
-git push -u origin main
-```
-
-Replace `<your-username>` with your GitHub username. Submit the repository URL.
